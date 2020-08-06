@@ -30,8 +30,10 @@ function iniciar() {
     //eventos
 
     imprimircodigo.onclick = function(e){
+        //resetear()
         resultado.textContent = resultado.textContent +"1620080387";
     }
+
     uno.onclick = function (e) {
         resultado.textContent = resultado.textContent + "1";
     }
